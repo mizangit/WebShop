@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="eCommerceSite.MasterPage" %>
+
+    <!DOCTYPE html>
+
+    <html>
+    <head runat="server">
+        <meta charset="UTF-8">
+        <title></title>
+        <link href="StyleSheet.css" rel="stylesheet" />
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+
+            <div id="wrapper">
+
+                <div id="header">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/ecommercedesigner.jpg" Height="200px" Width="960px" />
+                </div>
+
+                <div id="navigation">
+                    <ul id="menu">
+                        <li><asp:HyperLink ID="Home" runat="server" NavigateUrl="~/UI/Home.aspx">Home</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="Report" runat="server" NavigateUrl="~/UI/Report.aspx">Report</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="Managment" runat="server" NavigateUrl="~/UI/Managment.aspx" >Managment</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="AboutUs" runat="server" NavigateUrl="~/UI/About.aspx">About Us</asp:HyperLink></li>
+
+                    </ul>
+                </div>
+                <div id="content">
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </div>
+
+                <div id="footer">
+                    <h2> Developed by &copy Md Mizanur Rahman</h2>
+                </div>
+            </div>
+
+
+        </form>
+    </body>
+    </html>

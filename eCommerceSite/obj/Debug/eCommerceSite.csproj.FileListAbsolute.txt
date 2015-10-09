@@ -1,0 +1,6 @@
+F:\C#\Ongoing\eCommerceSite\eCommerceSite\bin\eCommerceSite.dll.config
+F:\C#\Ongoing\eCommerceSite\eCommerceSite\bin\eCommerceSite.dll
+F:\C#\Ongoing\eCommerceSite\eCommerceSite\bin\eCommerceSite.pdb
+F:\C#\Ongoing\eCommerceSite\eCommerceSite\obj\Debug\eCommerceSite.csprojResolveAssemblyReference.cache
+F:\C#\Ongoing\eCommerceSite\eCommerceSite\obj\Debug\eCommerceSite.dll
+F:\C#\Ongoing\eCommerceSite\eCommerceSite\obj\Debug\eCommerceSite.pdb
